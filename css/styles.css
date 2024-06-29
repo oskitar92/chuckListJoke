@@ -17,15 +17,39 @@ button {
   margin-top: 10px;
   padding: 8px 16px;
   font-size: 16px;
-  background-color: #007bff;
+  background-color: blue;
   color: #fff;
   border: none;
   cursor: pointer;
 }
 
 button:hover {
-  background-color: #0056b3;
+  background-color: green
 }
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+li button {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
 
 
 
